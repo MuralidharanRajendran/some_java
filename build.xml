@@ -21,7 +21,7 @@
     <target name="jar">
         <mkdir dir="build/jar"/>
         <jar destfile="build/jar/hello.jar" basedir="build/classes">
-@@ -28,18 +38,14 @@
+
         <java jar="build/jar/hello.jar" fork="true"/>
     </target>
 
